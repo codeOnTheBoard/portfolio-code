@@ -1,0 +1,40 @@
+.block {
+  top: 0;
+  bottom: 0;
+  left: 200px;
+  display: flex;
+  color: #000000;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.nav__container {
+  position: relative;
+  top: 20px;
+  left: 300px;
+  z-index: inherit;
+  width: 400px;
+  height: 200px;
+}
+
+.jkjk {
+  position: relative;
+  top: 89px;
+  right: 78px;
+  left: 0;
+  z-index: 34;
+  width: 299px;
+  padding: 30px;
+  font-size: 34px;
+  line-height: 4;
+  pointer-events: painted;
+}
+
+
+
+.test_class-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+}

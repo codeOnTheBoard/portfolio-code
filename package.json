@@ -1,0 +1,71 @@
+{
+  "name": "portfolio-code",
+  "version": "1.0.0",
+  "description": "Базовий стартовий шаблон для виконання верстки під замовлення",
+  "main": "gulpfile.js",
+  "scripts": {
+    "eslint": "eslint ./app/libs/common.js",
+    "eslint:fix": "eslint ./app/**/*.js --fix",
+    "stylelint": "stylelint ./app/scss/*.scss",
+    "stylelint:fix": "stylelint ./app/scss/*.scss --fix",
+    "stylelint:cache": "stylelint --cache ./app/**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeOnTheBoard/portfolio-code.git"
+  },
+  "author": "Ігор Васильченко",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeOnTheBoard/portfolio-code/issues"
+  },
+  "homepage": "https://github.com/codeOnTheBoard/portfolio-code#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "del": "^6.1.1",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-avif": "^1.1.1",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-fonter": "^0.3.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-include": "^2.4.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-strip-comments": "^2.6.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^5.2.1"
+  },
+  "dependencies": {
+    "browserslist": "^4.22.1",
+    "caniuse-lite": "^1.0.30001554"
+  }
+}
