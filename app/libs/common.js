@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('theme', 'dark');
     document.body.classList.add(localStorage.getItem('theme'));
   });
+
   document.querySelector('#light-theme').addEventListener('click', () => {
     localStorage.setItem('theme', 'light');
     document.body.classList.remove('dark');
@@ -20,14 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // кінець темної теми
 
-  document.querySelector('.toggle-style-switcher').addEventListener('click', () => {
-    document.querySelector('.style-switcher').classList.toggle('open');
-  });
+  document
+    .querySelector('.toggle-style-switcher')
+    .addEventListener('click', () => {
+      document.querySelector('.style-switcher').classList.toggle('open');
+    });
 
   if (localStorage.getItem('scenetheme') == null) {
     localStorage.setItem('scenetheme', 'css/pink.css');
   } else {
-    document.querySelector('#change__style').href = localStorage.getItem('scenetheme');
+    document.querySelector('#change__style').href =
+      localStorage.getItem('scenetheme');
   }
 
   // на pink колір

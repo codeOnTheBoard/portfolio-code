@@ -1,6 +1,11 @@
-{
+ {
   //"react-app",
-  "extends": [ "airbnb-base"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react:recommended",
+    "plugin:prettier:recommended"
+  //  "airbnb-base"
+  ],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -25,6 +30,12 @@
   "rules": {
     "indent": ["error", 2],
     "no-unused-vars": ["error", { "caughtErrorsIgnorePattern": "^ignore" }],
+    "prettier/prettier": [
+    "warn",
+      {
+      "endOfLine":"auto"
+    }
+    ],
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": "error",
     "linebreak-style": ["error", "windows"],
